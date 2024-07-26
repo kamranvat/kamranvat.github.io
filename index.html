@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en" class="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kamran Vatankhah - Cognitive Science Student</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script
+			defer
+			src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.14.1/cdn.min.js"
+		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							primary: "#3B82F6",
+							secondary: "#10B981",
+						},
+					},
+				},
+			};
+		</script>
+		<style>
+			[x-cloak] {
+				display: none !important;
+			}
+		</style>
+	</head>
+	<body
+		class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300"
+		x-data="{ darkMode: false }"
+		:class="{ 'dark': darkMode }"
+	>
+		<div class="container mx-auto px-4 py-8">
+			<header class="text-center mb-12">
+				<h1 class="text-4xl font-bold mb-2">Kamran Vatankhah</h1>
+				<p class="text-xl text-gray-600 dark:text-gray-400">
+					Cognitive Science Student
+				</p>
+				<div class="flex justify-center space-x-4 mt-4">
+					<!-- <a
+						href="mailto:"
+						class="text-primary hover:text-secondary transition-colors"
+					>
+						<i class="fas fa-envelope"></i>
+					</a> -->
+					<a
+						href="https://github.com/kamranvat"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="text-primary hover:text-secondary transition-colors text-4xl"
+					>
+						<i class="fab fa-github"></i>
+					</a>
+					<!-- <a
+						href="tel:"
+						class="text-primary hover:text-secondary transition-colors"
+					>
+						<i class="fas fa-phone"></i>
+					</a> -->
+				</div>
+			</header>
+
+			<main class="grid grid-cols-1 md:grid-cols-3 gap-8">
+				<section class="md:col-span-2">
+					<h2
+						class="text-2xl font-semibold mb-4 border-b-2 border-primary pb-2"
+					>
+						About Me
+					</h2>
+					<p class="mb-4">
+						I am a student of Cognitive Science at Osnabrück
+						University with a passion for intelligent systems and
+						programming. My bachelor's thesis focused on Instruction
+						Following with Deep Reinforcement Learning. Currently
+						enrolled in the master's program, I'm exploring
+						neurodynamics and neuromorphic systems. I thrive on
+						diving into new, exciting projects and pushing the
+						boundaries of cognitive science and AI.
+					</p>
+
+					<h2
+						class="text-2xl font-semibold mb-4 border-b-2 border-primary pb-2 mt-8"
+					>
+						Education
+					</h2>
+					<div class="mb-4">
+						<h3 class="text-xl font-semibold">
+							Master's Program in Cognitive Science
+						</h3>
+						<p class="text-gray-600 dark:text-gray-400">
+							University of Osnabrück | 2024 - Ongoing
+						</p>
+						<p>
+							Focusing on neurodynamics and neuromorphic systems,
+							continuing to explore the fascinating world of
+							cognitive science at an advanced level.
+						</p>
+					</div>
+					<div class="mb-4">
+						<h3 class="text-xl font-semibold">
+							Bachelor's Program in Cognitive Science
+						</h3>
+						<p class="text-gray-600 dark:text-gray-400">
+							University of Osnabrück | 2018 - 2024
+						</p>
+						<p>
+							Completed course requirements and thesis. Emphasized
+							Artificial Intelligence, Computational Linguistics,
+							and Philosophy modules.
+						</p>
+					</div>
+
+					<h2
+						class="text-2xl font-semibold mb-4 border-b-2 border-primary pb-2 mt-8"
+					>
+						Skills
+					</h2>
+					<ul class="list-disc list-inside mb-4">
+						<li>
+							<span class="font-semibold"
+								>Python Programming:</span
+							>
+							Extensive experience with PyTorch, PySNN,
+							TensorFlow, Tensorboard, Matplotlib, NumPy, and
+							more.
+						</li>
+						<li>
+							<span class="font-semibold"
+								>Collaboration and Issue Resolution:</span
+							>
+							Applied experimental frameworks and coordinated with
+							developers.
+						</li>
+						<li>
+							<span class="font-semibold">Version Control:</span>
+							Proficient in Git and GitHub for project management
+							and issue tracking.
+						</li>
+					</ul>
+
+					<h2
+						class="text-2xl font-semibold mb-4 border-b-2 border-primary pb-2 mt-8"
+					>
+						Teaching Experience
+					</h2>
+					<div class="mb-4">
+						<h3 class="text-xl font-semibold">Python Tutor</h3>
+						<p class="text-gray-600 dark:text-gray-400">
+							University of Osnabrück | 2020
+						</p>
+						<p>
+							Taught a basic programming course as part of a team
+							of four, equipping master's students with
+							fundamental Python skills. This experience enhanced
+							my understanding of Python's core concepts and
+							improved my ability to communicate technical
+							knowledge effectively.
+						</p>
+					</div>
+				</section>
+
+				<aside class="md:col-span-1">
+					<div
+						class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md"
+					>
+						<h2
+							class="text-2xl font-semibold mb-4 border-b-2 border-secondary pb-2"
+						>
+							Languages
+						</h2>
+						<ul class="mb-6">
+							<li class="mb-2">
+								<span class="font-semibold">German:</span>
+								Native
+							</li>
+							<li class="mb-2">
+								<span class="font-semibold">English:</span>
+								Proficient
+							</li>
+							<li>
+								<span class="font-semibold">Farsi:</span>
+								Rudimentary
+							</li>
+						</ul>
+
+						<h2
+							class="text-2xl font-semibold mb-4 border-b-2 border-secondary pb-2"
+						>
+							Interests
+						</h2>
+						<p class="mb-6">
+							My recent projects involve biologically inspired
+							learning for artificial agents, including both
+							Reinforcement Learning and Plasticity-based learning
+							for spiking networks.
+						</p>
+
+						<h2
+							class="text-2xl font-semibold mb-4 border-b-2 border-secondary pb-2"
+						>
+							Miscellaneous
+						</h2>
+						<p>
+							I enjoy making things in the workshop, 3D printing,
+							tinkering on my bikes, and riding them. A friend and
+							I once scored 1st place in a robotics competition
+							held by ESA.
+						</p>
+					</div>
+				</aside>
+			</main>
+
+			<footer class="text-center mt-12 text-gray-600 dark:text-gray-400">
+				<p>&copy; 2024 Kamran Vatankhah. All rights reserved.</p>
+			</footer>
+		</div>
+	</body>
+</html>
